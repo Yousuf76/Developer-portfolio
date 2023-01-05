@@ -64,9 +64,11 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{
+    margin-top:130px;
+}
 .about{
     text-align: center;
-    margin-top: 130px;
     background: #FFF8F3;
     border-radius: 30px;
     paddng: 130px 150px;
@@ -75,7 +77,7 @@ main{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 
 }
 .secttion-description{
@@ -99,7 +101,7 @@ main{
     
 
 }
-.what-i-d0{
+section{
     margin-top:130px;
 }
 .skills-container{
@@ -120,4 +122,31 @@ main{
 }
 .skill-description{
     color: #757575;
+}
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .tittle{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume .sub-tittle{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
 }
